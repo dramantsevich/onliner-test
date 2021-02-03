@@ -60,4 +60,4 @@ Feature: Onliner feature
 
       Examples:
            | product1                                                  | product2                                              |
-           | HONOR 10X Lite DNN-LX9 4GB/128GB (ультрафиолетовый закат) | Xiaomi Redmi 9A 2GB/32GB международная версия (серый) |
+           | HONOR 10X Lite DNN-LX9 4GB/128GB (ультрафиолетовый закат) | Xiaomi Redmi 9A 2GB/32GB |
