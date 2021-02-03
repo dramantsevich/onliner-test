@@ -1,0 +1,34 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 2,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 16816.0,
+    "medianResTime" : 16816.0,
+    "minResTime" : 16342.0,
+    "maxResTime" : 17290.0,
+    "pct1ResTime" : 17290.0,
+    "pct2ResTime" : 17290.0,
+    "pct3ResTime" : 17290.0,
+    "throughput" : 0.11535355865728458,
+    "receivedKBytesPerSec" : 180.90755538773215,
+    "sentKBytesPerSec" : 0.0
+  },
+  "jp@gc - WebDriver Sampler" : {
+    "transaction" : "jp@gc - WebDriver Sampler",
+    "sampleCount" : 2,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 16816.0,
+    "medianResTime" : 16816.0,
+    "minResTime" : 16342.0,
+    "maxResTime" : 17290.0,
+    "pct1ResTime" : 17290.0,
+    "pct2ResTime" : 17290.0,
+    "pct3ResTime" : 17290.0,
+    "throughput" : 0.11535355865728458,
+    "receivedKBytesPerSec" : 180.90755538773215,
+    "sentKBytesPerSec" : 0.0
+  }
+}

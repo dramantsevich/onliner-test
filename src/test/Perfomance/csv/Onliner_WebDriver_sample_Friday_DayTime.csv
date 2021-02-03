@@ -1,0 +1,72 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1610710043434,7577,jp@gc - WebDriver Sampler,200,OK,Open first News page 2-1,text,true,,3250,0,2,4,https://auto.onliner.by/2021/01/13/zhkx-minska-napomnilo-pro-obyazannost-voditelej-ubirat-sneg-u-avto,0,0,0
+1610710043400,13272,jp@gc - WebDriver Sampler,500,"Sourced file: inline evaluation of: ``import org.apache.commons.io.FileUtils; import org.openqa.selenium.*; import org . . . '' : Method Invocation click : at Line: 18 : in file: inline evaluation of: ``import org.apache.commons.io.FileUtils; import org.openqa.selenium.*; import org . . . '' : .click ( ) 
+
+Target exception: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7B2EO79', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Eugene\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64224}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 59f734cc1e9a1b3a43999af5271a1c8b
+ in inline evaluation of: ``import org.apache.commons.io.FileUtils; import org.openqa.selenium.*; import org . . . '' at line number 18",Open page with Mobile Phones 1-1,text,false,,2177,0,2,3,null,0,0,0
+1610710052680,12274,jp@gc - WebDriver Sampler,200,OK,Open first News page 2-2,text,true,,3149,0,2,4,https://realt.onliner.by/2021/01/14/v-dana-mall-bolshe-chasa-visel-ogromnyj-flag-ego-zabrali-lyudi-v-forme,0,0,0
+1610710062891,10072,jp@gc - WebDriver Sampler,200,OK,Open first News page 2-3,text,true,,3207,0,2,5,https://people.onliner.by/opinions/2021/01/14/nalogi-povysili,0,0,0
+1610710052617,23698,jp@gc - WebDriver Sampler,500,"Sourced file: inline evaluation of: ``import org.apache.commons.io.FileUtils; import org.openqa.selenium.*; import org . . . '' : Method Invocation click : at Line: 18 : in file: inline evaluation of: ``import org.apache.commons.io.FileUtils; import org.openqa.selenium.*; import org . . . '' : .click ( ) 
+
+Target exception: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7B2EO79', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Eugene\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64322}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c73ea29a81ca47d72d3d946564b3f2e4
+ in inline evaluation of: ``import org.apache.commons.io.FileUtils; import org.openqa.selenium.*; import org . . . '' at line number 18",Open page with Mobile Phones 1-2,text,false,,2177,0,3,4,null,0,0,0
+1610710072686,10926,jp@gc - WebDriver Sampler,200,OK,Open first News page 2-4,text,true,,3156,0,2,5,https://auto.onliner.by/2021/01/14/voditel-volkswagen-nakazal-sebya-sam-zhelaya-operedit-trollejbus,0,0,0
+1610710062935,28065,jp@gc - WebDriver Sampler,500,"Sourced file: inline evaluation of: ``import org.apache.commons.io.FileUtils; import org.openqa.selenium.*; import org . . . '' : Method Invocation click : at Line: 18 : in file: inline evaluation of: ``import org.apache.commons.io.FileUtils; import org.openqa.selenium.*; import org . . . '' : .click ( ) 
+
+Target exception: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7B2EO79', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Eugene\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9296b7e2420318eca243c02fc8a8286e
+ in inline evaluation of: ``import org.apache.commons.io.FileUtils; import org.openqa.selenium.*; import org . . . '' at line number 18",Open page with Mobile Phones 1-3,text,false,,2177,0,4,6,null,0,0,0
+1610710072672,28129,jp@gc - WebDriver Sampler,500,"Sourced file: inline evaluation of: ``import org.apache.commons.io.FileUtils; import org.openqa.selenium.*; import org . . . '' : Method Invocation click : at Line: 18 : in file: inline evaluation of: ``import org.apache.commons.io.FileUtils; import org.openqa.selenium.*; import org . . . '' : .click ( ) 
+
+Target exception: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7B2EO79', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Eugene\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64673}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8e581ccd30adbb321a6bca81c8e77d8d
+ in inline evaluation of: ``import org.apache.commons.io.FileUtils; import org.openqa.selenium.*; import org . . . '' at line number 18",Open page with Mobile Phones 1-4,text,false,,2177,0,4,7,null,0,0,0
+1610710092954,9710,jp@gc - WebDriver Sampler,200,OK,Open first News page 2-6,text,true,,3186,0,3,7,https://realt.onliner.by/2021/01/13/belarus-bez-rossii,0,0,0
+1610710103044,9130,jp@gc - WebDriver Sampler,200,OK,Open first News page 2-7,text,true,,8376,0,3,7,https://auto.onliner.by/2021/01/14/driver-artist-shatoff,0,0,0
+1610710083224,30058,jp@gc - WebDriver Sampler,500,"javascript error: Cannot read property 'outerHTML' of null
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7B2EO79', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Eugene\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64858}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e41cae6c196a4625eb4692ac287d5a1d",Open first News page 2-5,text,false,,2530,0,3,7,null,0,0,0
+1610710083149,13723,jp@gc - WebDriver Sampler,200,OK,Open page with Mobile Phones 1-5,text,true,,2826528,0,5,7,https://catalog.onliner.by/mobile,0,0,0
+1610710093146,33077,jp@gc - WebDriver Sampler,500,"Sourced file: inline evaluation of: ``import org.apache.commons.io.FileUtils; import org.openqa.selenium.*; import org . . . '' : Method Invocation click : at Line: 18 : in file: inline evaluation of: ``import org.apache.commons.io.FileUtils; import org.openqa.selenium.*; import org . . . '' : .click ( ) 
+
+Target exception: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7B2EO79', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Eugene\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65053}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d5ba7e5425674e6cede3b9e9c8b7d844
+ in inline evaluation of: ``import org.apache.commons.io.FileUtils; import org.openqa.selenium.*; import org . . . '' at line number 18",Open page with Mobile Phones 1-6,text,false,,2177,0,4,6,null,0,0,0
+1610710123350,8531,jp@gc - WebDriver Sampler,200,OK,Open first News page 2-9,text,true,,8318,0,3,7,https://realt.onliner.by/2021/01/15/ot-560-za-kvadrat-s-otdelkoj,0,0,0
+1610710114015,23121,jp@gc - WebDriver Sampler,200,OK,Open first News page 2-8,text,true,,3203,0,2,6,https://auto.onliner.by/2021/01/13/prodali-bmw-teper-oplachivayut-shtrafy,0,0,0
+1610710133030,11090,jp@gc - WebDriver Sampler,200,OK,Open first News page 2-10,text,true,,6729,0,1,5,https://realt.onliner.by/2021/01/14/v-dana-mall-bolshe-chasa-visel-ogromnyj-flag-ego-zabrali-lyudi-v-forme,0,0,0
+1610710113116,30727,jp@gc - WebDriver Sampler,200,OK,Open page with Mobile Phones 1-8,text,true,,3208435,0,4,4,https://catalog.onliner.by/mobile,0,0,0
+1610710103326,39037,jp@gc - WebDriver Sampler,200,OK,Open page with Mobile Phones 1-7,text,true,,4458600,0,3,3,https://catalog.onliner.by/mobile,0,0,0
+1610710133084,21224,jp@gc - WebDriver Sampler,200,OK,Open page with Mobile Phones 1-10,text,true,,4444144,0,2,2,https://catalog.onliner.by/mobile,0,0,0
+1610710123115,34754,jp@gc - WebDriver Sampler,200,OK,Open page with Mobile Phones 1-9,text,true,,4544849,0,1,1,https://catalog.onliner.by/mobile,0,0,0

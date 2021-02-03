@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1610705551237,16342,jp@gc - WebDriver Sampler,200,OK,Open first News page 2-1,text,true,,3188,0,1,2,https://auto.onliner.by/2021/01/14/kto-eto-stoit-tesla-obnaruzhila-strannoe-yavlenie-vozle-kladbishha,0,0,0
+1610705551285,17290,jp@gc - WebDriver Sampler,200,OK,Open page with Mobile Phones 1-1,text,true,,3208665,0,1,1,https://catalog.onliner.by/mobile,0,0,0
