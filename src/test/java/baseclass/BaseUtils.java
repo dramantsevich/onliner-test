@@ -58,7 +58,7 @@ public class BaseUtils {
 
             driver.get(url);
             driver.manage().window().maximize();
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
         } catch (Exception e) {
             throw new Exception();
@@ -68,7 +68,7 @@ public class BaseUtils {
 
     public static void  waitforVisibility(WebElement element) {
         try {
-            WebDriverWait wb = new WebDriverWait(driver, 10);
+            WebDriverWait wb = new WebDriverWait(driver, 60);
             wb.until(ExpectedConditions.visibilityOf(element));
         } catch (Exception e) {
             e.printStackTrace();
