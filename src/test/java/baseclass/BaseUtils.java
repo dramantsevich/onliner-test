@@ -9,11 +9,14 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.lang.reflect.InvocationTargetException;
+import java.net.URI;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
@@ -43,6 +46,25 @@ public class BaseUtils {
             } else if (browserName.equalsIgnoreCase("Firfox")) {
                 System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\drivers\\geckodriver.exe");
                 driver = new FirefoxDriver();
+            } else if(browserName.equalsIgnoreCase("chrome-selenoid")){
+                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\Driver\\chromedriver.exe");
+                Map<String, Object> prefs = new HashMap<>();
+                File downloadsDirectory = new File(String.join(File.separator, System.getProperty("user.home"), "downloads"));
+                prefs.put("download.default_directory", downloadsDirectory.getAbsolutePath());
+                ChromeOptions chromeOptions = new ChromeOptions();
+                chromeOptions.setAcceptInsecureCerts(true);
+                chromeOptions.addArguments("--lang=en-us");
+                chromeOptions.setExperimentalOption("prefs", prefs);
+                DesiredCapabilities capabilities = new DesiredCapabilities();
+                capabilities.setCapability("browserName", "chrome");
+                capabilities.setCapability("browserVersion", "87.0");
+                capabilities.setCapability("selenoid:options", Map.<String, Object>of(
+                        "enableVNC", true,
+                        "enableVideo", true
+                ));
+                driver = new RemoteWebDriver(
+                        URI.create("http://104.248.27.208:4444/wd/hub").toURL(),
+                        capabilities);
             }
         } catch (Exception e) {
             // TODO Auto-generated catch block

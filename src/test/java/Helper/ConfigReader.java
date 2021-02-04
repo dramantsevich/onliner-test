@@ -33,6 +33,16 @@ public class ConfigReader {
         return browsername;
     }
 
+    public String getSelenoidBrowserName() throws Throwable {
+        String browsername = prop.getProperty("selenoidBrowserName");
+
+        if (browsername != null) {
+        } else {
+            throw new Exception("not a valid browsername");
+        }
+        return browsername;
+    }
+
     public static String getextent_report() throws Exception {
         String report = prop.getProperty("extentReport");
 
