@@ -7,7 +7,7 @@ import PageObjectModel.*;
 import cucumber.api.java.en.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import testrunner.RunnerTest;
+import testrunner.DriverTest;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.Locale;
@@ -17,7 +17,7 @@ import static org.junit.Assert.assertTrue;
 
 public class OnlinerStepDefinition {
     private static NewsListener newsListener;
-    private static WebDriver driver = RunnerTest.driver;
+    private static WebDriver driver = DriverTest.driver;
     private static PageObjectManager pageobject = new PageObjectManager(driver);
     private static HomePage homePage = pageobject.getHome();
     private static LoginPage loginPage = pageobject.getLoginPage();
