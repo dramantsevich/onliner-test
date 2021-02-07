@@ -58,10 +58,8 @@ public class BaseUtils {
                 DesiredCapabilities capabilities = new DesiredCapabilities();
                 capabilities.setCapability("browserName", "chrome");
                 capabilities.setCapability("browserVersion", "87.0");
-                capabilities.setCapability("selenoid:options", Map.<String, Object>of(
-                        "enableVNC", true,
-                        "enableVideo", true
-                ));
+                capabilities.setCapability("enableVNC", true);
+                capabilities.setCapability("enableVideo", true);
                 driver = new RemoteWebDriver(
                         URI.create("http://104.248.27.208:4444/wd/hub").toURL(),
                         capabilities);
